@@ -1,1 +1,10 @@
 secure/
+# Ignore all .txt files
+*.txt
+
+#but allow important.txt
+!important.txt
+
+#order matter, this will ignore all temp file but will allow instructions.md
+temp/*
+!temp/instructions.md
